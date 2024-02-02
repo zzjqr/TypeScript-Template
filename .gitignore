@@ -1,0 +1,52 @@
+# 忽略日志文件
+logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+################################# 通配符文件 ########################################
+# 忽略所有 .log 文件
+*.log
+*.class
+*.jar
+*.py[cod]
+*.js.map
+# 应用程序文件
+*.app
+*.exe
+*.war
+# 大型媒体文件
+*.mp4
+*.tiff
+*.avi
+*.flv
+*.mov
+*.wmv
+*.tsbuildinfo
+
+
+#################################忽略某个目录及其下所有内容########################################
+# 环境配置文件
+# Env files
+.env
+.flaskenv*
+.env*
+!.env.project
+!.env.vault
+!.env.production
+!.env.denelopment
+!.env.test
+# .idea/: IntelliJ IDEA 配置文件夹
+.idea/
+node_modules/
+dist/ 
+
+################## 忽略系统生成的文件 ##################  
+# 忽略 macOS 生成的文件
+.DS_Store
+# 忽略 Windows 生成的文件
+Thumbs.db
+
+#################################使用感叹号表示例外###############################
